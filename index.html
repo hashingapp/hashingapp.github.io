@@ -1,35 +1,224 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Hashingapp.GitHub.io by hashingapp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../bootstrap/hashing.ico">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Hashing App for Windows</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Hashingapp.GitHub.io</h1>
-        <p>Web interface for showcasing Hashing Application for Windows</p>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">#ashing</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#donate">Support</a></li>
+            <li><a href="#share">Share</a></li>
+            <li><a href="#comment">Comment</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-
-        <p class="view"><a href="https://github.com/hashingapp">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <p>Under construction. Please come back soon</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron other-color">
+      <div class="container">
+        <h1>Hashing for Windows</h1>
+        <p>Hashing is a freeware Windows application for performing cryptograhic hashes</p>
+        <p>Quickly perform MD5, SHA-1, SHA-2</p>
+        <p>Secure your downloads and keep your files safe</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Download &raquo;</a></p>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
+    <div class="container">
     
+       <!-- OVERVIEW -->
+       <div id='overview' class="page-header">
+         <div class="row">
+           <div class="col-md-4">
+             <h2 align="center">Single file</h2>
+             <h5 align="center">Quickly perform the most common hash algorithyms </h5>
+             <img class="img-responsive" src="single_2.png" alt="Single file view"> 
+           </div>
+           <div class="col-md-4">
+            <h2 align="center">Multiple Files</h2>
+            <h5 align="center">Select a long list of files and let hashing do the work</h5>
+             <img class="img-responsive" src="multiple_2.png" alt="Multiples files view"> 
+          </div>
+           <div class="col-md-4">
+             <h2 align="center">Manual input</h2>
+             <h5 align="center">Helping developers debug their code.</h5>
+             <img class="img-responsive" src="manual_2.png" alt="Manual input view"> 
+           </div>
+         </div>
+         <br>
+      </div>
+      
+      <!-- FEATURES -->
+       <div id='features' class="page-header">
+       <h2> Features </h2>
+          <div class="row">
+           <div class="col-md-6">
+             <table class="table">
+               <thead>
+                 <tr>
+                   <th>Easy, intuitive, powerful, robust access to:</th>
+                   <th></th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>Hash Algorithims: <a href="https://en.wikipedia.org/wiki/MD5">MD5</a>, 
+                                         <a href="https://en.wikipedia.org/wiki/SHA-1">SHA-1</a>, 
+                                         <a href="https://en.wikipedia.org/wiki/SHA-2#Comparison_of_SHA_functions">SHA-224</a>,
+                                         <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-256</a>, 
+                                         <a href="https://en.wikipedia.org/wiki/SHA-2#Comparison_of_SHA_functions">SHA-384</a>, 
+                                         <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-512</a>
+                    </td>
+                 </tr>
+                 <tr>
+                   <td><b>Verify</b> against a previous calculated hash</td>
+                 </tr>
+                 <tr>
+                   <td>Hash <b>multiple files</b> with a single click</td>
+                 </tr>
+                 <tr>
+                   <td><b>Save</b> a report to a text file or open in text editor</td>
+                 </tr>
+                 <tr>
+                   <td>Hash <b>large files</b> efficiently, with low CPU use</td>
+                 </tr>
+                 <tr>
+                   <td><b>Stop</b> the operation anytime you like</td>
+                 </tr>
+                 <tr>
+                   <td><b>Drag 'n' drop</b> or create a send_to</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </div>
+       </div>
+       
+       <!-- DOWNLOAD -->
+       <div id='download' class="page-header">
+          <h2> Download Hashing for free </h2>
+          <h5> Needs <a href="">.NET framework 2.0 </a> or superior and Visual C++ 2010 redistributables (included) </h5>
+          <h5> Size: 450 Kb (compressed) </h5>
+          <p>
+             <a class="btn btn-primary btn-default" target="_blank" href="http://sourceforge.net" role="button">Download (sourceforge.net)</a>
+             <a class="btn btn-primary btn-default" target="_blank" href="http://cnet.com" role="button">Download (cnet.com)</a>
+          </p>
+
+          <br>
+          
+          <div class="row">
+           <div class="col-md-6">
+             <table class="table">
+               <thead>
+                 <tr>
+                   <th>!!!</th>
+                   <th>Verify your download</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>MD5</td>
+                   <td>DEF6167F465CA65F3C338D0E3A2CFA96</td>
+                 </tr>
+                 <tr>
+                   <td>SHA-1</td>
+                   <td>5D66F839602A6947C9E6202FFABAAA6C841A7F0B</td>
+                 </tr>
+                 <tr>
+                   <td>SHA-256</td>
+                   <td>40CA22519C64319C886B72BA9B3C5B971AA57CD15300085FF246433C0643399D</td>
+                 </tr>
+                 <tr>
+                   <td>SHA-256</td>
+                   <td>B808D1B900218BA94BB5242C853AEB4BE95AB1FD8E00830AF268D3B69D062823EB5F85DE7A3FE6049D823B25832582F3026F089A08B053F18A0E7B82E7CC4AA0</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </div>
+       <h5></h5>
+       
+       </div>
+       
+       <!-- DONATE -->
+       <div id='donate' class="page-header">
+         <h2> Support </h2>
+         <h5> If you like this software, you might want to donate. Any amount serves as incentive for future developments </h5>
+         <a class="btn btn-success" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W4GXC57R3UG7E" role="button">Donate via Paypal</a>
+         
+         <h5> Donate bitcoins: <a href="bitcoin:15uFjnfK8zQDZYKmAUAzneUH9cNj2MFCRd"> 15uFjnfK8zQDZYKmAUAzneUH9cNj2MFCRd</a> </h5>
+       </div>
+       
+       <!-- SOCIAL MEDIA -->
+       <div id='share' class="page-header">
+         <h2> Share this:</h2>
+       </div>
+       
+       <!-- COMMENT -->
+       <div id='comment' class="page-header">
+         <h2> Comment </h2>
+         <h5> Feel free to express your opinions, new ideas or report bugs on the space above </h5>
+         <h5> Alternatively, you can contact me at vonkjerome@gmail.com </h5>
+       </div>
+      
+
+      <hr>
+
+      <footer>
+        <p>&copy; Jerome Vonk 2015</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
