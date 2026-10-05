@@ -6,7 +6,6 @@ Project website for the Hashing application. Visit at [https://hashingapp.github
 
 Links:
 
-* Article about Cryptographic Hashes and explanation of this app on [Code Project](https://www.codeproject.com/Articles/1044042/Cryptographic-Hashes-What-They-Are-and-Why-You-Sho)
 * [Source code](https://github.com/jeromevonk/hashing-app)
 
 Developed by [Jerome Vonk](https://jeromevonk.github.io/).
